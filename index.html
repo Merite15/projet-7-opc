@@ -28,19 +28,23 @@
           class="header__brand"
           href="javascript:PopupCentrer('./assets/doc/popup.html',700,500,'menubar=no,status=no')"
         >
-          <img
+          <h1>
+            <img
             src="./assets/image/logo.svg"
             class="header__logo"
             alt="Logo : Les petits plats"
           />
+          </h1>
         </a>
       </header>
 
       <main class="main">
         <section class="search">
           <div class="search__input-group">
+            <label for="search_input" style="display: none;"> Recherchez</label>
             <input
               type="text"
+              id="search_input"
               class="search__input"
               placeholder="Rechercher un ingrédient, un appareil, un ustensile, une recette..."
             />

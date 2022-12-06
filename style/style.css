@@ -9,20 +9,11 @@
   --fs-12: 12px;
   --br-5: 5px;
 }
-
-@font-face {
-  font-family: "latoregular";
-  src: url("../assets/font/webfontkit-20211203-075005/lato-regular-webfont.woff2")
-      format("woff2"),
-    url("../assets/font/webfontkit-20211203-075005/lato-regular-webfont.woff")
-      format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;600;700;800&display=swap');
 
 body {
-  font-family: "latoregular", sans-serif;
-  font-size: 62.5%;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 70%;
 }
 
 @media only screen and (min-width: 992px) {
@@ -73,6 +64,7 @@ body {
   right: 8px;
   top: 0;
   height: 100%;
+  cursor: pointer;
 }
 
 /* tags section */

@@ -21,6 +21,7 @@ export const displayFilterIngredients =
           .sort()
       ),
     ];
+    
 
     // SI RECHERCHE DANS INPUT....
     if (filter) {
@@ -58,7 +59,7 @@ export const displayFilterAppliance =
     return distinctAppliance;
   });
 
-// NEW SET : distinct USTENSILS
+// NEW SET : distinct USTENSILES
 export const displayFilterUstensils =
   (renderRecipes.prototype.displayFilterUstensils = function (data, filter) {
     // console.log(data);

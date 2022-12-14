@@ -30,6 +30,9 @@ buttons.forEach((btn) => {
   });
 });
 
+window.onload = function() {
+  document.querySelector(".search__input").value = '';
+  }
 
 // --------------------------------------------------------
 

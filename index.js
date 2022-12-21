@@ -32,6 +32,11 @@ buttons.forEach((btn) => {
   });
 });
 
+// clear input after reload
+window.onload = function() {
+  document.querySelector(".search__input").value = '';
+  }
+
 // --------------------------------------------------------
 
 // AFFICHE LE TEMPS D'EXECUTION DU SCRIPT JS

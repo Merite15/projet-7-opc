@@ -180,7 +180,7 @@ body {
   top: 65px;
   color: #fff;
   width: 100%;
-  max-height: 360px;
+  /* max-height: 360px; */
   overflow: hidden;
   border-bottom-left-radius: var(--br-5);
   border-bottom-right-radius: var(--br-5);
@@ -211,6 +211,7 @@ body {
   padding: 4px 0 4px 20px;
   font-size: var(--fs-18);
   color: rgb(165, 162, 162);
+  display: none;
   pointer-events: none;
 }
 
